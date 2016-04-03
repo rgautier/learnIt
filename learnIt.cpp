@@ -23,9 +23,18 @@ using namespace std;
 //source class - used to store information about sources, including reputation data
 //Note: source may have relationships between sources so that reputation is linked to 'group' reputations as well.
 //Utility class - a class that contains any reusable code that will go into another class in the future
+#include "linkType.h"
+#define defaultURL = "http://www.livin3.com/50-cool-and-weird-fun-facts-that-you-should-know"
 
 int main(int argc, char* argv[]) {
 
-	cout << "test" << endl;
+	// I think that we'll start out with a simple 'create a new Brain'
+	// followed by connect to a given URL and attempt to find simple statements to process (noun verb adj).
+
+        //myBrain = new cBrain();
+	//myConnector = new cConnector();
+	//myConnector.interpret(defaultURL);
+
+	cerr << "Loading my Brain" << endl;
 	return 0;
 }

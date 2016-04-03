@@ -3,6 +3,7 @@
 #define LINKTYPE_H
 
 #include <string>
+using namespace std;
 
 class cLinkType {
 // A link type talks about the properties of how something is associated
@@ -11,7 +12,8 @@ class cLinkType {
 // Methods may cement or weaken the relationship or remove it altogether
 
 	int strength;
-	string verb = "is associated with";
+	string verb;
+
 	public:
 	cLinkType(int str,string inverb);
         cLinkType();

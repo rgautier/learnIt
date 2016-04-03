@@ -4,7 +4,7 @@
 
 cLinkType:cLinkType(int str, string inverb) {
 	strength = str;
-	verb = verb
+	verb = inverb;
 }
 
 cLinkType:cLinkType() {
