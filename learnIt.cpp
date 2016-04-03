@@ -13,6 +13,17 @@
 #include <iostream>
 using namespace std;
 
+//A section will go here to include all of the header files for my
+//personal classes that I create
+//Starting examples of classes we'll need will be:
+//The Brain Class - a class that will be linked to the bot's brain of memories
+//memory class - used by the brain class, but refers to specific memories (and properties thereof)
+//web interface class - used to connect to the web
+//search engine class - used to create search queries within the brain itself
+//source class - used to store information about sources, including reputation data
+//Note: source may have relationships between sources so that reputation is linked to 'group' reputations as well.
+//Utility class - a class that contains any reusable code that will go into another class in the future
+
 int main(int argc, char* argv[]) {
 
 	cout << "test" << endl;
