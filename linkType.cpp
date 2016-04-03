@@ -8,5 +8,6 @@ cLinkType:cLinkType(int str, string inverb) {
 }
 
 cLinkType:cLinkType() {
+	verb = "is associated with";
 	strength = 10;
 }
